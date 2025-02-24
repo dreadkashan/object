@@ -14,6 +14,17 @@
             document.write('demo test value:'+value+'<br>'); var value=(Math.sqrt(100000000));
             document.write('demo test value:'+value+'<br>'); var value=(Math.cos(767));
             document.write('demo test value:'+value+'<br>');
+            function findmax(){
+                var i
+                var max=0
+                for(i=0;i<arguments.length;i++){
+                    if(arguments[i]>max){
+                        max=arguments[i]
+                    }
+                }
+                return max
+            }
+            document.write(findmax(37841728,3842729,437082))
             
         </script>
     </body>
